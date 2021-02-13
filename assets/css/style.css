@@ -1,0 +1,82 @@
+@import 'normalize.css';
+@import url(//db.onlinewebfonts.com/c/640850c0965fa5449af39df95c9970de?family=Hans+Kendrick+V4);
+
+body {
+    background-color: rgb(226, 231, 236);
+}
+
+.view {
+    display:            flex;
+    flex-wrap:          wrap;
+    justify-content:    center;
+    align-items:        center;
+    height:             1080px;
+    width:              1150px;
+    margin:             100px auto;
+    font-family:        "Hans Kendrick V4", "Sans Serif";
+}
+
+.view h1 {
+    text-transform:     uppercase;
+    font-size:          20px;
+    margin:             0 30px;
+}
+
+.view h4 {
+    text-transform:     uppercase;
+    font-size:          10px;
+    color:              rgb(179, 179, 179);
+    margin:             30px;
+}
+
+.category {
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    flex-end;
+    width:              740px;
+    height:             520px;
+    background-color: #fff;
+    margin:             10px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+h1.category-title {
+    color:            #fff;
+    font-size:          30px; 
+    margin:             0 40px 40px 40px; 
+    width: 490px;
+}
+
+h4.category-date {
+    margin: 30px 40px;
+}
+
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 520px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.blogpost * {
+    margin: 0;
+}
+
+.blogpost-foto {
+    width: 100%;
+    height:auto;
+}
+
+.category {
+    background-image: url('../img/red-car-on-square.png');
+}
+
+.blogger-selfi {
+    /*justify-self:       flex-end;*/
+    position: relative;
+    top: 50px;
+    align-self:         flex-start;
+    margin: 0 30px;
+}
